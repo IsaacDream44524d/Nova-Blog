@@ -1,0 +1,86 @@
+:root {
+    /* Colors */
+    --clr-background: #EAF6FD;
+    --clr-surface: #FFFFFF;
+    --clr-primary: #5CBFD6;
+    --clr-secondary: #F6CFCF;
+    --clr-accent: #A7D3D0;
+
+    /* Text */
+    --clr-text: #1F2937;
+    --clr-text-muted: #6B7280;
+    --clr-border: #DDE7EE;
+
+    /* Typography */
+    --main-font: 'Roboto', 'Roboto-condensed', sans-serif;
+  
+
+    --fs-logo: 2.25rem;
+    --fs-h1: 2rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    --fs-small: 0.875rem;
+
+    /* Font Weights */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    /* Line Heights */
+    --lh-heading: 1.2;
+    --lh-body: 1.6;
+
+    /* Spacing */
+    --space-xs: 0.5rem;      /* 8px */
+    --space-sm: 1rem;        /* 16px */
+    --space-md: 1.5rem;      /* 24px */
+    --space-lg: 2rem;        /* 32px */
+    --space-xl: 3rem;        /* 48px */
+
+    /* Layout */
+    --container-width: 1200px;
+    --content-gap: 1.5rem;
+    --section-gap: 3rem;
+
+    /* Border Radius */
+    --radius-sm: 0.5rem;     /* 8px */
+    --radius-md: 0.75rem;    /* 12px */
+    --radius-lg: 1rem;       /* 16px */
+    --radius-round: 999px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.10);
+
+
+    /* Cards */
+    --card-padding: 1rem;
+    --card-padding-lg: 1.5rem;
+
+    /* Images */
+    --image-radius: 0.75rem;
+}
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--clr-primary);
+}
+
+.header .logo img {
+  width: 150px;
+  border-radius: var(--image-radius);
+}
