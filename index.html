@@ -14,12 +14,13 @@
     rel="stylesheet">
   <title>Holy Grail Mockup</title>
   <link rel="stylesheet" href="style.css">
+  <script src="/nav.js" defer></script>
 </head>
 
 <body>
   <div class="container">
 
-    <nav>
+    <nav id="header">
       <div class="header">
 
         <div class="logo">
@@ -28,12 +29,16 @@
         </div>
 
         <div class="menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Technology</a></li>
-            <li><a href="#">Lifestyle</a></li>
-            <li><a href="#">Travel</a></li>
+          <ul id="nav-links">
+            <li><a href="#"><i class="bi bi-house"></i>Home</a></li>
+            <li><a href="#"><i class="bi bi-cpu"></i>Technology</a></li>
+            <li><a href="#"><i class="bi bi-heart"></i>Lifestyle</a></li>
+            <li><a href="#"><i class="bi bi-airplane"></i>Travel</a></li>
           </ul>
+        </div>
+
+        <div class="menu-icon" onclick="toggleMenu()">
+          <i class="bi bi-list"></i>
         </div>
       </div>
     </nav>
@@ -226,7 +231,7 @@
         </p>
       </div>
       <div class="footer-logo">
-        <img src="/assets/Elegant Business Logo.png" alt="">
+        <img style="width: 150px;" src="/assets/Elegant Business Logo.png" alt="">
       </div>
       <p>NexaBlog | 2026</p>
     </div>
